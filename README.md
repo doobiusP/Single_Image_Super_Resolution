@@ -9,3 +9,8 @@ We leverage a GAN-based architecture to tackle the issue of constructing high-re
 <summary>Includes dataset loading, model architecture and the training loop</summary>
 <summary>Includes an easy to use upscale function to easily upscale any image given its path.</summary>
 
+### Technologies/Libraries used:
+<summary>Numpy</summary>
+<summary>PyTorch</summary>
+<summary>Matplotlib</summary>
+<summary>Pillow</summary>
