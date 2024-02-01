@@ -10,7 +10,7 @@
 * Arnav
 
 ### Summary:
-* Contains an image dataset consisting of 685 high resolution and low resolution pairs of training images alongside 165 corresponding pairs of validation images
+* Contains an image dataset consisting of 685 high resolution and low resolution pairs of training images alongside 170 corresponding pairs of validation images
 * Performs data augmentation to the training images
 * Includes dataset loading, model architecture and the training loop
 * Includes an easy to use upscale function to easily upscale any image given its path
