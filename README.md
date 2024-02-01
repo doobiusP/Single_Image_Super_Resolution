@@ -1,5 +1,5 @@
-# Image-and-Video-SR
-Repo for Image and Video SR ACM Project
+# Single Image Super Resolution
+<summary>Repository for Image SR Project for the NITK Chapter of ACM, 2023-2024</summary>
 
 Video Super Resolution relevant links and resources:
 <p>REDS Datasest for Video key-frame images: https://seungjunnah.github.io/Datasets/reds</p>
