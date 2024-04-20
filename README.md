@@ -1,13 +1,15 @@
-# Single Image Super Resolution
+![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/e1faf3e4-75c6-4127-8255-1d9c22719930)# Single Image Super Resolution
 ### Repository for Image SR Project for the NITK Chapter of ACM, 2023-2024
 
-<summary>We leverage a GAN-based architecture to tackle the issue of constructing high-resolution images that display a high degree of clarity and sharpness from low-resolution images.</summary>
-
+<summary>We leverage a GAN-based architecture to tackle the issue of constructing high-resolution images from low-resolution images while preserving image structure and simultaneously improving image fidelity and sharpness.</summary>
+![Sample Generated Image 1]()
+![Sample Generated Image 2]()
 ### Mentors:
-
+* Santosh C
+* Prasanna Kumar
 ### Mentees:
-* Aaryan 
-* Arnav
+* Aaryan Patil
+* Arnav Santosh
 
 ### Summary:
 * Contains an image dataset consisting of 685 high resolution and low resolution pairs of training images alongside 170 corresponding pairs of validation images
