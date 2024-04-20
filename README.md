@@ -14,10 +14,28 @@
 * Arnav Santosh
 
 ### Summary:
-* Contains an image dataset consisting of 685 high resolution and low resolution pairs of training images alongside 170 corresponding pairs of validation images
+* SRGAN trained on an image dataset consisting of more than **6000** high resolution and low resolution pairs of training images alongside 273 corresponding pairs of validation images (publicly available <a href="https://www.kaggle.com/datasets/doobiusp/various-ordered-images-for-super-resolution-task">here</a>.)
 * Performs data augmentation to the training images
-* Includes dataset loading, model architecture and the training loop
+* Includes dataset loading, model architecture and the training
 * Includes an easy to use upscale function to easily upscale any image given its path
+
+## Report:
+
+### Method
+SRGAN
+
+To perform SISO-SR, we use a GAN with a generator and discriminator architecture as shown below.
+
+![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/a5e41898-b3d6-4307-919b-05db2161e4e4)
+
+*<p align="center"> Fig 1. Generator </p>*
+
+![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/dc21acdf-8aa6-4edf-9fbd-2fca38ddfe70)
+
+*<p align="center">Fig 2. Discriminator</p>*
+
+The main block of the generator lies in the list of residual blocks connected sequentially. Upscaling is done via Pixel Shuffling layers. Bicubically upscaling the original input image as a baseline for the output allows for color-correct output images. Optional post-processing such as sharpening can be done.
+
 
 ### Technologies/Libraries used:
 * Numpy
