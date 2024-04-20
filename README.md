@@ -7,11 +7,6 @@ We leverage a GAN-based architecture to tackle the issue of constructing high-re
 
 </p>
 
-<span style="font-size:0.5em;">
-Note that: An SSIM (Structural Similarity Index Measure) closer to 1 is considered perfect], A higher PSNR indicates a higher quality reconstruction but studies have shown that it is a poor indicator compared to other metrics
-</span>
-
-
 ### Mentors:
 * Santosh C
 * Prasanna Kumar
@@ -66,6 +61,10 @@ The main block of the generator lies in the list of residual blocks connected se
 The SRGAN model was tested using a completely new dataset consisting of about 76 images, of various objects, animals, places and people. The model was then fed the test dataset and the evaluation metrics (PSNR and SSIM) were calculated and printed between the upscaled image and the original high resolution image.
 * Average PSNR value: 23.048
 * Average SSIM value: 0.9438
+
+<span style="font-size:0.5em;">
+Note that: An SSIM (Structural Similarity Index Measure) closer to 1 is considered perfect. A higher PSNR indicates a higher quality reconstruction but studies have shown that it is a poor indicator compared to other metrics
+</span>
 
 ### Conclusion:
 
