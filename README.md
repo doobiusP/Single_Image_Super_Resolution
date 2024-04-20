@@ -38,7 +38,7 @@ Nevertheless, this project looks to explore and apply known deep learning techni
 ### Method
 
 To perform SISO-SR (Single-Image-Single-Output Super Resolution), we use a GAN with a generator and discriminator architecture as shown below.
-<p align="center>
+<p align="center">
   
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/18949d5a-5ea8-4333-aa2f-2f36f4674803)
 
@@ -54,10 +54,10 @@ The main block of the generator lies in the list of residual blocks connected se
 <p align="center">
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/eb82c8e3-ebcf-4896-bc59-bff5dd6a3a4a)
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/8e11d509-4eed-4021-bc63-8d06c21da190)
-*<p><font size="-2"> Fig 3. Website developed for the model using Flask.</font></p>*
+*<p align="center"><font size="-2"> Fig 3. Website developed for the model using Flask.</font></p>*
 
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/67cdd0d3-2438-44a3-9b76-52b0c0de46e6?raw=True)
-*<p><font size="-2"> Fig 4. Example output image. Note the high SSIM value.</font></p>*
+*<p align="center"><font size="-2"> Fig 4. Example output image. Note the high SSIM value.</font></p>*
 </p>
 
 The SRGAN model was tested using a completely new dataset consisting of about 76 images, of various objects, animals, places and people. The model was then fed the test dataset and the evaluation metrics (PSNR and SSIM) were calculated and printed between the upscaled image and the original high resolution image.
