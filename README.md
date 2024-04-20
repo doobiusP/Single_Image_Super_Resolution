@@ -44,14 +44,16 @@ To perform SISO-SR (Single-Image-Single-Output Super Resolution), we use a GAN w
 
 *<p align="center"><font size="-2"> Fig 1. Generator </font></p>*
 
-![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/f6edd6e8-43a5-4e8f-ae4a-9c0aca0c8584)
+![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/e4a1128e-12bf-4c4f-b2d7-169b9969ef16)
 
 *<p align="center"><font size="-2"> Fig 2. Discriminator</font></p>*
 </p>
+
 The main block of the generator lies in the list of residual blocks connected sequentially. Upscaling is done via Pixel Shuffling layers. Bicubically upscaling the original input image as a baseline for the output allows for color-correct output images. Optional post-processing such as sharpening can be done.
 
 ### Results:
 <p align="center">
+  
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/eb82c8e3-ebcf-4896-bc59-bff5dd6a3a4a)
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/8e11d509-4eed-4021-bc63-8d06c21da190)
 *<p align="center"><font size="-2"> Fig 3. Website developed for the model using Flask.</font></p>*
