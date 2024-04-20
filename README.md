@@ -6,12 +6,10 @@ We leverage a GAN-based architecture to tackle the issue of constructing high-re
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/e1faf3e4-75c6-4127-8255-1d9c22719930?raw=True)
 
 </p>
-<p> Note that: 
-  <span style="font-size:0.5em;">
-  * An SSIM (Structural Similarity Index Measure) closer to 1 is considered perfect]
-  * Note that a higher PSNR indicates a higher quality reconstruction but studies have shown that it is a poor indicator compared to other metrics
-  </span>
-</p>
+
+<span style="font-size:0.5em;">
+Note that: An SSIM (Structural Similarity Index Measure) closer to 1 is considered perfect], A higher PSNR indicates a higher quality reconstruction but studies have shown that it is a poor indicator compared to other metrics
+</span>
 
 
 ### Mentors:
@@ -52,12 +50,15 @@ To perform SISO-SR (Single-Image-Single-Output Super Resolution), we use a GAN w
 The main block of the generator lies in the list of residual blocks connected sequentially. Upscaling is done via Pixel Shuffling layers. Bicubically upscaling the original input image as a baseline for the output allows for color-correct output images. Optional post-processing such as sharpening can be done.
 
 ### Results:
+
 <p align="center">
-  
+
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/eb82c8e3-ebcf-4896-bc59-bff5dd6a3a4a)
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/8e11d509-4eed-4021-bc63-8d06c21da190)
+</p>
 *<p align="center"><font size="-2"> Fig 3. Website developed for the model using Flask.</font></p>*
 
+<p align="center">
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/67cdd0d3-2438-44a3-9b76-52b0c0de46e6?raw=True)
 *<p align="center"><font size="-2"> Fig 4. Example output image. Note the high SSIM value.</font></p>*
 </p>
