@@ -7,10 +7,10 @@ We leverage a GAN-based architecture to tackle the issue of constructing high-re
 
 </p>
 <p> Note that: 
-  <font size="-2">
+  <span style="font-size:0.5em;">
   * An SSIM (Structural Similarity Index Measure) closer to 1 is considered perfect]
   * Note that a higher PSNR indicates a higher quality reconstruction but studies have shown that it is a poor indicator compared to other metrics
-  </font>
+  </span>
 </p>
 
 
