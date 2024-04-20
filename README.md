@@ -20,3 +20,6 @@
 * PyTorch
 * Matplotlib
 * Pillow
+
+### Associated links:
+* <a href="https://www.kaggle.com/code/doobiusp/srgan">Kaggle Code</a>
