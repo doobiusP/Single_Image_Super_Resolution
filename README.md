@@ -49,11 +49,16 @@ The main block of the generator lies in the list of residual blocks connected se
 <p align="center">
 
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/eb82c8e3-ebcf-4896-bc59-bff5dd6a3a4a)
+</p>
+<p align="center">
+  
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/8e11d509-4eed-4021-bc63-8d06c21da190)
 </p>
+
 *<p align="center"><font size="-2"> Fig 3. Website developed for the model using Flask.</font></p>*
 
 <p align="center">
+  
 ![image](https://github.com/doobiusP/Single_Image_Super_Resolution/assets/36434536/67cdd0d3-2438-44a3-9b76-52b0c0de46e6?raw=True)
 *<p align="center"><font size="-2"> Fig 4. Example output image. Note the high SSIM value.</font></p>*
 </p>
