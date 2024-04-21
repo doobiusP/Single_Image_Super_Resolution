@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM Image Super Resolution</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color:#0072BB; 
+            margin-top: 10px;
+        }
+
+        h2{
+            color:#0072BB;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        
+        h3{
+            margin-top: 60px;
+            color:#0072BB;
+        }
+
+        img {
+            max-width: 25%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Single Image Super Resolution</h1>
+    <p>Single Image Super-Resolution (SISR) is a computer vision task that involves enhancing the 
+        resolution of a single low-resolution image to produce a high-resolution counterpart. This 
+        is a critical task in image processing, where the goal is to recover fine details and improve 
+        the visual quality of images. 
+    </p>
+    <h2>
+        Please input the image to be upscaled:
+    </h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="input">Select an image:</label>
+        <input type="file" id="imageInput" name="image" accept="image/*">
+        <button type="submit">Upload Image</button>
+    </form>
+
+    {% if uploaded_image_path %}
+    <form action="/upscale" method="POST">
+        <input type="hidden" name="image_path" value="{{ uploaded_image_path }}">
+        <button type="submit">Upscale Image</button>
+    </form>
+    {% endif %}
+
+    
+    {% if upscaled_image_path %}
+    <h3>Upscaled Image:</h3>
+    <img src="{{ upscaled_image_path }}" alt="Upscaled image">
+    <a href="/download?filename={{ upscaled_image_path|basename }}"><button>Download</button></a>
+    {% endif %}
+
+
+
+
+</body>
+
+</html>
